@@ -6,32 +6,31 @@ categories: [Blogging, Tutorial]
 tags: [favicon]
 ---
 
-The [favicons](https://www.favicon-generator.org/about/) of [**Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/) are placed in the directory `assets/img/favicons/`{: .filepath}. You may want to replace them with your own. The following sections will guide you to create and replace the default favicons.
+# Getting Started with the Project
 
-## Generate the favicon
+Welcome to the "Getting Started" guide! In this article, we'll walk you through the basics of setting up and using this project.
 
-Prepare a square image (PNG, JPG, or SVG) with a size of 512x512 or more, and then go to the online tool [**Real Favicon Generator**](https://realfavicongenerator.net/) and click the button <kbd>Select your Favicon image</kbd> to upload your image file.
+## Understanding the Setup
 
-In the next step, the webpage will show all usage scenarios. You can keep the default options, scroll to the bottom of the page, and click the button <kbd>Generate your Favicons and HTML code</kbd> to generate the favicon.
+Before you begin, let's take a look at the setup process. You'll need to understand how the project files are structured.
 
-## Download & Replace
+![Light Source Image](assets/posts/20180809/pages-source-light.png)
+_This is the light mode screenshot of the setup._
 
-Download the generated package, unzip and delete the following two from the extracted files:
+![Dark Source Image](assets/posts/20180809/pages-source-dark.png)
+_This is the dark mode screenshot of the setup._
 
-- `browserconfig.xml`{: .filepath}
-- `site.webmanifest`{: .filepath}
+## Final Thoughts
 
-And then copy the remaining image files (`.PNG`{: .filepath} and `.ICO`{: .filepath}) to cover the original files in the directory `assets/img/favicons/`{: .filepath} of your Jekyll site. If your Jekyll site doesn't have this directory yet, just create one.
+Once you've followed all the steps, you'll be ready to use the project with ease!
 
-The following table will help you understand the changes to the favicon files:
+---
 
-| File(s)             | From Online Tool                  | From Chirpy |
-|---------------------|:---------------------------------:|:-----------:|
-| `*.PNG`             | ✓                                 | ✗           |
-| `*.ICO`             | ✓                                 | ✗           |
+## Additional Resources
 
-<!-- markdownlint-disable-next-line -->
->  ✓ means keep, ✗ means delete.
-{: .prompt-info }
+Here are some helpful resources:
 
-The next time you build the site, the favicon will be replaced with a customized edition.
+- [Documentation](https://example.com/docs)
+- [Community Forum](https://example.com/forum)
+
+Make sure to check out the related posts and resources to enhance your experience.
