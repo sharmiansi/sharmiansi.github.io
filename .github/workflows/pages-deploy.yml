@@ -50,6 +50,11 @@ jobs:
         env:
           JEKYLL_ENV: "production"
 
+      - name: Clean up _site directory (force refresh)
+        run: |
+          echo "Cleaning up the _site directory..."
+          rm -rf _site/*
+
       - name: Test site
         run: |
           bundle exec htmlproofer _site \
