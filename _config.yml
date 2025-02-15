@@ -92,4 +92,5 @@ jekyll-archives:
 
 # jekyll-paginate
 paginate_path: /posts/:num/
-paginate: 5
+paginate: 3
+excerpt_separator: <!--more-->
