@@ -3,5 +3,9 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Archives"
-    url: /archives/
+  - title: "Blog"
+    url: /blog/
+  - title: "Github"
+    url: https://github.com/austinzwile
+  - title: "Linkedin"
+    url: https://www.linkedin.com/
