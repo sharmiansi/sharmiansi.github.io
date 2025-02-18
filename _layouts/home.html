@@ -10,31 +10,23 @@ layout: default
     {{ site.data.intro.intro | markdownify }}
   </div>
 
-    <!-- Page Break -->
-    <hr class="post-divider">
+  <!-- Page Break -->
+  <hr>
   {% endif %}
 
   {{ content }}
 
   <ul class="post-list">
     {% for post in paginator.posts %}
-    <li>
+    <li style="text-align: center; margin-bottom: 15px;">
       <header class="post-header">
-        <h1 class="post-title">
+        <h1 >
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h1>
         <p class="post-meta">
           {% include date.html date=post.date %}
         </p>
       </header>
-
-      <div class="post-content">
-        {{ post.excerpt }}
-      </div>
-
-      <p class="post-continue">
-        <a href="{{ post.url | relative_url }}">Read more &rarr;</a>
-      </p>
     </li>
     {% endfor %}
   </ul>
