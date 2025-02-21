@@ -16,7 +16,7 @@
 		<div id="home-center">
 			<h1 id="home-title">{{ .Site.Title }}</h1>
 			{{- with .Site.Params.homeSubtitle }}
-			<p id="home-subtitle">{{.}}</p>
+			<p id="home-subtitle">{{ . | replaceRE "(\\n|\\r\\n)" "<br>" | safeHTML }}</p>
 			{{- end }}
 			{{- with .Site.Params.socialLinks }}
 			<div id="home-links">
