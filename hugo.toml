@@ -20,7 +20,13 @@ enableEmoji = true
     languageDirection = 'ltr'
     languageName = 'English'
     [languages.en.params]
-      homeSubtitle = "Continuing Hermit's legacy to be minimal and fast theme"
+      homeSubtitle = """My name is Austin Wile. This blog is a place where I explore red teaming, vulnerability research, and program analysis through hands-on security research.
+
+I enjoy reverse engineering, exploit development, and just generally breaking stuff to understand it better.
+
+Here is where I share the insights I've gained throughout my career as well as the challenges I’ve encountered, the techniques I utilize, and the lessons I’ve learned along the way.
+
+Whether it’s dissecting binaries, analyzing vulnerabilities, or experimenting with new attack surfaces, this blog serves as a record of my ongoing journey in offensive security."""
     weight = 1
   [languages.fr]
     title = 'Hermit - V2 (FR)'
